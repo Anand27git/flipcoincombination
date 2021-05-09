@@ -30,9 +30,13 @@ declare -a coin
 if [[ $headCount -eq 11 ]]
 then
 echo "Head Count" $headcount
+
 else
 echo "Tail Count" $tailCount
 
 coin=( [0]=$headCount [1]=$tailCount )
+coin=("HH" "TT" "HH" "TT")
 echo "stored:${coin[@]}"
 fi
+
+
