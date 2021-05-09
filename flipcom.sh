@@ -35,7 +35,7 @@ else
 echo "Tail Count" $tailCount
 
 coin=( [0]=$headCount [1]=$tailCount )
-coin=("HH" "TT" "HH" "TT")
+coin=("HHH" "TTT" "HHH" "TTT")
 echo "stored:${coin[@]}"
 fi
 
